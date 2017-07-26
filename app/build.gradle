@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'com.jakewharton.butterknife'
 
 android {
     compileSdkVersion 25
@@ -41,5 +41,6 @@ dependencies {
     compile 'net.orfjackal.retrolambda:retrolambda:2.5.1'
     compile 'org.greenrobot:eventbus:3.0.0'
     compile 'com.google.dagger:dagger:2.11'
-    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.jakewharton:butterknife:8.7.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
 }
