@@ -15,7 +15,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 
-public class MainActivity extends BaseActivity<MainActivityPresenter>{
+public class MainActivity extends BaseActivity<MainActivityPresenter> {
 
     @BindView(R.id.textview)
     TextView mTextview;
@@ -30,7 +30,6 @@ public class MainActivity extends BaseActivity<MainActivityPresenter>{
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-//        findViewById(R.id.button).setOnClickListener(this);
         initFragment();
     }
 
